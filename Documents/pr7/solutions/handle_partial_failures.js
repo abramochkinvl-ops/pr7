@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
 
     if (req.method === "POST" && req.url === "/error-handling") {
 
-        req.setEncoding("utf8"); 
+        req.setEncoding("utf8"); // 🔥 важливо для нормального JSON
 
         req.setEncoding("utf8");
 
